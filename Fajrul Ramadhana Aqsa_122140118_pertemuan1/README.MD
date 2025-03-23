@@ -1,0 +1,1 @@
+Saya sudah mengerjakan tugas 1 sampai 3 dari pertemuan pertama dan menggabungkannya dalam satu file supaya lebih mudah diperiksa.

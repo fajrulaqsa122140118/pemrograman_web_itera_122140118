@@ -1,0 +1,44 @@
+/* Home.module.css */
+
+.homeContainer {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .homeHeader {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2d3748;
+    margin-bottom: 1.5rem;
+  }
+  
+  .homeContent {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .homeCard {
+    background-color: #edf2f7;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    flex: 1;
+    text-align: center;
+  }
+  
+  .homeCard h3 {
+    font-size: 1.5rem;
+    color: #2d3748;
+  }
+  
+  .homeCard p {
+    color: #718096;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  

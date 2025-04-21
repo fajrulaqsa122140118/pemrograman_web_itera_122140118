@@ -1,0 +1,108 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  color: #343a40;
+  min-height: 100vh;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+.home-container, .stats-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  background: #ffffffcc;
+  backdrop-filter: blur(6px);
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.book-form {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr auto;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.book-form input, .book-form select {
+  padding: 0.6rem;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.book-form button {
+  padding: 0.6rem 1.2rem;
+  background-color: #198754;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+.book-form button:hover {
+  background-color: #157347;
+}
+
+.book-form .error {
+  grid-column: span 4;
+  color: #dc3545;
+  font-size: 0.9rem;
+  margin-top: -0.5rem;
+}
+
+.book-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.book-list li {
+  background-color: #f1f3f5;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.book-list li:hover {
+  transform: scale(1.02);
+}
+
+.book-list button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.book-list button:hover {
+  background-color: #bb2d3b;
+}
+
+.book-filter {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.book-filter select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #adb5bd;
+}

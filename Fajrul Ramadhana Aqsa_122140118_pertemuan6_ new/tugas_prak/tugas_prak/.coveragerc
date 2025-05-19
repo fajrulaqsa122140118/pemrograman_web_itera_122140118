@@ -1,0 +1,3 @@
+[run]
+source = tugas_prak
+omit = tugas_prak/test*
